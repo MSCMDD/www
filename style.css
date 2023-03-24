@@ -1,6 +1,14 @@
 * {
   box-sizing: border-box;
 }
+
+body{
+margin:0;
+}
+
+.bodydiv{
+padding: 0 10px;
+}
  
 /* 头部标题 */
 .header {
