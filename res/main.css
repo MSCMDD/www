@@ -1,0 +1,10 @@
+﻿#main{width:100%;height:auto;display:flex;width:800px;margin:auto;justify-content:center;flex-wrap:wrap}
+img{width:80px}
+#icon{display:flex;flex-direction:row}
+#icon-img{padding:1.6rem 0}
+#main #rowbox{border:1px solid black;margin:10px;flex:325px;position:relative;padding:30px;margin-bottom:20px;box-sizing:border-box}
+@media (max-width:800px){#main #rowbox{flex:100%;position:relative;padding:1.5rem}
+#main{width:100%}
+}@media (max-width:600px){#main #rowbox{flex:100%;position:relative;max-width:100%;padding:1.5rem}
+#icon{flex-direction:column}
+}
